@@ -3,7 +3,8 @@
     --sec-color: #5EC3DC;
 }
 
-/* NAVBAR */
+/* * NAVBAR */
+
 .navbar{
     background-color: white !important;
     box-shadow: 2px 0px 10px;
@@ -36,6 +37,9 @@
     color: var(--sec-color);
 }
 
+
+
+/* ^ PAGINA HOME */
 
 /* HEADER */
 .masthead {
@@ -103,7 +107,9 @@
     color: var(--det-color) !important;
 }
 
-/* ? Pagina programma */
+
+
+/* ~ PAGINA PROGRAMMA */
 
 .titolo2{
     font-size: 50px;
@@ -126,7 +132,19 @@
     transform: scale(1.2);
 }
 
-/* ! Pagina canditati */
+
+
+/* ? PAGINA CANDIDATI */
+
+.card{
+    box-shadow: 2px 2px 5px var(--det-color);
+    border-radius: 25px;
+}
+
+.card-img-top{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
 
 .nomi_candidati{
     color: var(--det-color);
@@ -137,6 +155,7 @@
     background-color: var(--det-color);
     padding: 10px 20px;
     border-radius: 50px;
+    box-shadow: 2px 2px 5px black;
     transition: 0.4s;
 }
 
@@ -146,7 +165,7 @@
 }
 
 
-/* BOTTONE BACK TO TOP */
+/* & BOTTONE BACK TO TOP */
 
 #scrollBtn {
     display: none;
