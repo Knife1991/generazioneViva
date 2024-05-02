@@ -170,7 +170,7 @@
 #scrollBtn {
     display: none;
     position: fixed;
-    bottom: 40px;
+    bottom: 90px;
     right: 40px;
     z-index: 99;
     background-color: var(--det-color);
